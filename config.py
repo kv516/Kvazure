@@ -12,5 +12,5 @@ class Config(object):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'kishstorage'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or '5P9s5a1NuF6PpmyrvL06Qtmd1aKST/1IaLgtScydCWRkC2NSjXFx1p9skYF5iuOzLAPEa/r2PEcH+AStvEwG0A=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'c/OgJ0YljdIqnQVj/p7fr6FiHpOLvBA8kaK8NkK7hkANn7vwdY9xwgWKo/qDaVJB+5EOUW4CYGR2+ASt0gpbDQ=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
